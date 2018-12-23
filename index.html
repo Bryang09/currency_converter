@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:300,400"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Currency Converter</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-bg">
+        <div class="title"><h1>Welcome To Bryan's Currency Converter</h1></div>
+
+        <div class="form">
+          <h2>Type In Amount</h2>
+          <input
+            id="input"
+            type="number"
+            placeholder="Place Amount in USD Here"
+          />
+        </div>
+
+        <section class="results">
+          <div class="result euro">
+            <h2>
+              Euros: <br />
+              <span>&euro; <span id="euro"></span> </span>
+            </h2>
+          </div>
+          <div class="result pound">
+            <h2>
+              Pounds: <br /><span> &pound; <span id="pound"></span> </span>
+            </h2>
+          </div>
+          <div class="result peso">
+            <h2>
+              Pesos: <br /><span>$ <span id="peso"></span> </span>
+            </h2>
+          </div>
+        </section>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
